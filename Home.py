@@ -1,7 +1,10 @@
 import streamlit as st
 import leafmap.foliumap as leafmap
 
-st.set_page_config(layout="wide")
+
+# SETTING PAGE CONFIG TO WIDE MODE AND ADDING A TITLE 
+st.set_page_config(layout="wide", page_title="NYC Ridesharing Demo")
+# st.set_page_config(layout="wide")
 
 # Customize the sidebar
 markdown = """
